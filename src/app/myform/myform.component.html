@@ -1,0 +1,24 @@
+<app-navbar></app-navbar>
+
+<div>
+    <!-- login form -->
+    <form #login="ngForm" *ngIf="!newuser" (ngSubmit)="jumpToAuth(login.value)">
+        <input type="email" name="email" #email placeholder="email" ngModel>
+        <input type="password" name="password" #password placeholder="password" ngModel>
+        <button type="submit">login</button>
+        <a (click)="newuserfound()" class="change">Signup I am new user </a>
+        <p *ngIf="invaliduser" style="color:red">not a valid user</p>
+    </form>
+    <!-- loginform ends here  -->
+
+    <!-- signup form  -->
+    <form #signup="ngForm" *ngIf="newuser" (ngSubmit)="pushFormData(signup.value)">
+        <input type="text" name="name" #name placeholder="name" ngModel>
+        <input type="email" name="email" #email placeholder="email"  ngModel>
+        <input type="password" name="password" #password placeholder="password" ngModel>
+        <button type="submit">signup</button>
+        <a (click)="olduserfound()" class="change">I am already a user</a>
+    </form>
+    <!-- signup form ends now  -->
+</div>
+

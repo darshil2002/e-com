@@ -1,0 +1,21 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 300px;
+    height: 15px;
+    margin: 5px;
+}
+button{
+    margin: 10px;
+    width: 300px;
+}
+.change{
+    border: 1px solid black;
+    border-radius: 3px;
+    color: rgb(5, 27, 68);
+    padding: 4px;
+}

@@ -1,0 +1,14 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    height: 45px;
+    background-color: rgb(211, 211, 230);
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+    margin-top: 8px;
+    padding: 5px;
+}

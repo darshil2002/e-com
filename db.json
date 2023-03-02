@@ -1,0 +1,28 @@
+{
+  "myUserData": [
+    {
+      "name": "sdf",
+      "email": "dsf",
+      "password": "sdfsd",
+      "id": 1
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": "a",
+      "email": "a",
+      "password": "a",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 4
+    }
+  ]
+}
